@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,25 +6,26 @@
 
 }
 
-body{
+body {
     font-size: 15px;
+    font-family: 'Lexend Deca', 'Big Shoulders Display', serif;
     line-height: 1.8;
 }
 
-.container{
+.container {
     width: 100vw;
     height: 100vh;
-    background-color:  hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
 }
 
-.main{
-  
+.main {
+
     width: 65vw;
     height: auto;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
-.rec{
+.rec {
     width: 33.333%;
     height: 450px;
     margin-top: 9em;
@@ -32,19 +33,19 @@ body{
     float: left;
 }
 
-h1{
+h1 {
     color: #fff;
     text-transform: uppercase;
     padding: 0.6em;
 }
 
-p{
+p {
     width: 250px;
     padding: 0.6em;
-    color:hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
-button{
+button {
     background-color: hsl(0, 0%, 95%);
     padding: 0.6em;
     margin-top: 2em;
@@ -57,47 +58,47 @@ button{
     font-size: 1em;
 }
 
-.left-div{
+.left-div {
     background-color: hsl(31, 77%, 52%);
     border-radius: 20px 0 0 20px;
 }
 
-.left-div button{
+.left-div button {
     color: hsl(31, 77%, 52%);
 }
 
-.center-div{
+.center-div {
     background-color: hsl(184, 100%, 22%);
 }
 
-.center-div button{
+.center-div button {
     color: hsl(184, 100%, 22%);
 }
 
-.right-div{
+.right-div {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 20px 20px 0;
 }
 
-.right-div button{
+.right-div button {
     color: hsl(179, 100%, 13%);
 }
 
 
-.left-div button:hover{
+.left-div button:hover {
     border: 1px solid #fff;
     background-color: hsl(31, 77%, 52%);
     color: #fff;
 }
 
 
-.center-div button:hover{
+.center-div button:hover {
     border: 1px solid #fff;
     background-color: hsl(184, 100%, 22%);
     color: #fff;
 }
 
-.right-div button:hover{
+.right-div button:hover {
     border: 1px solid #fff;
     background-color: hsl(179, 100%, 13%);
     color: #fff;
