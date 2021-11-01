@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:  hsl(0, 0%, 95%);
+}
+
+.main{
+  
+    width: 65vw;
+    height: auto;
+    margin: 0 auto; 
+}
+
+.rec{
+    width: 33.333%;
+    height: 450px;
+    margin-top: 9em;
+    padding: 2.5em;
+    float: left;
+}
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.6em;
+}
+
+p{
+    width: 250px;
+    padding: 0.6em;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.6em;
+    margin-top: 2em;
+    width: 8rem;
+    border: none;
+    outline: none;
+    border-radius: 1em;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1em;
+}
+
+.left-div{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px 0 0 20px;
+}
+
+.left-div button{
+    color: hsl(31, 77%, 52%);
+}
+
+.center-div{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.center-div button{
+    color: hsl(184, 100%, 22%);
+}
+
+.right-div{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 20px 20px 0;
+}
+
+.right-div button{
+    color: hsl(179, 100%, 13%);
+}
+
+
+.left-div button:hover{
+    border: 1px solid #fff;
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+}
+
+
+.center-div button:hover{
+    border: 1px solid #fff;
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+}
+
+.right-div button:hover{
+    border: 1px solid #fff;
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+}
